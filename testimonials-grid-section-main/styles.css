@@ -1,0 +1,126 @@
+body{
+    font-size: 11px;
+}
+
+#container-box{
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+#row-main{
+    height: 550px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#social{
+    display: flex;
+    width: 130px;
+    box-sizing: border-box;
+    justify-content: space-around;
+    align-content: center;
+}
+
+#img{
+    width: 30px;
+    height: 30px;
+    border: 1px solid rgba(255,255,255,0.5);
+    border-radius: 50%;
+}
+
+/* -------- Card 1 ----------*/
+
+#card1{
+    background-color: hsl(263, 55%, 52%);
+    color: #fff;
+}
+
+#card1 h5{
+    font-size: 11px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+#card1 p{
+    font-size: 9px;
+    color: rgb(228, 228, 228);
+}
+
+/* -------- Card 2 ----------*/
+
+#card2{
+    background-color: hsl(217, 19%, 35%);
+    color: #fff;
+}
+
+#card2 h5{
+    font-size: 11px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+#card2 p{
+    font-size: 9px;
+    color: rgb(228, 228, 228);
+}
+
+/* -------- Card 4 ----------*/
+
+#card4{
+    background-color: hsl(210, 46%, 95%);
+    color: #000;
+}
+
+#card4 h5{
+    font-size: 11px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+#card4 p{
+    font-size: 9px;
+}
+
+/* -------- Card 5 ----------*/
+
+#card5{
+    background-color: hsl(215, 18%, 19%);
+    color: rgb(255, 255, 255);
+}
+
+#card5 h5{
+    font-size: 11px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+#card5   p{
+    font-size: 9px;
+}
+
+/* -------- Card 3 ----------*/
+
+#card3{
+    background-color:  hsl(210, 46%, 95%);
+    color: #000;
+}
+
+#card3 h5{
+    font-size: 11px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+#card3  p{
+    font-size: 9px;
+}
+
+@media (max-width:370px){
+    #container-box{
+        height: 1800px;
+    }
+}
+
+
+
