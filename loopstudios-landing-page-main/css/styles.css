@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap');
+
+/* font-family: 'Alata', sans-serif;
+
+font-family: 'Josefin Sans', sans-serif; */
+
+body{
+    font-family: 'Alata', sans-serif;
+}
+
+
+/*-----------------
+-------- HEADER -----------*/
+.header-edit{
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../images/desktop/image-hero.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    height: 100vh;
+    padding: 20px 100px;
+}
+
+
+
+.text-box{
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    padding: 30px;
+    height: 250px;
+    width: 600px;
+
+    margin-top: 80px;
+}
+
+.text-box p{
+    font-size: 70px;
+    line-height: 65px;
+    font-weight: 300;
+    font-family: 'Josefin Sans', sans-serif; 
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+
+/*-----------------
+-------- NAVBAR -----------*/
+.nav-item{
+    margin-left: 10px;
+}
+
+.nav-link{
+    color: #fff;
+    font-size: 14px;
+}
+
+.nav-link:hover{
+    color: rgb(219, 219, 219);
+}
+
+/*-----------------
+--------  CONTAINER -----------*/
+
+.presentation{
+    height: 100vh;
+    position: relative;
+}
+
+.box-img-presentation{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    width: 600px;
+    height: 400px;
+}
+
+.img-presentation{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.box-text-presentation{
+    position: absolute;
+    top: 250px;
+    left: 600px;
+    width: 600px;
+    height: 350px;
+    padding: 50px 80px;
+
+}
+
+.box-text-presentation h2{
+    font-family: 'Josefin Sans', sans-serif; 
+    letter-spacing: 2px;
+}
+
+.box-text-presentation p{
+    color: rgb(96, 96, 96);
+}
+
+
