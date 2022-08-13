@@ -45,24 +45,6 @@ body{
 
 /*-----------------
 -------- NAVBAR -----------*/
-.navbar-nav{
-    box-sizing: border-box;
-    height: 39px;
-}
-
-.nav-item{
-    margin-left: 10px;
-}
-
-.nav-link{
-    color: #fff;
-    font-size: 14px;
-}
-
-.nav-link:hover{
-    color: rgb(231, 231, 231);
-    border-bottom: 2px solid #fff;
-}
 
 /*-----------------
 --------  CONTAINER -----------*/
@@ -185,4 +167,27 @@ body{
 }
 
 
+@media (max-width:720px){
 
+    /*-------------------HEADER--------------*/
+    .header-edit{
+        padding: 20px 30px;
+    }
+    .offcanvas-header{
+        margin: 20px 30px 150px 30px;
+    }
+
+    .offcanvas-body{
+        margin: 0 25px;
+    }
+
+    .nav-link{
+        font-size: 35px;
+        font-family: 'Josefin Sans', sans-serif; 
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+
+    
+
+}
