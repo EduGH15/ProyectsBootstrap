@@ -1,0 +1,81 @@
+@media (max-width:720px){
+
+    /*-------------------HEADER--------------*/
+    .header-edit{
+        padding: 20px 30px;
+    }
+    .offcanvas-edit{
+        background-color: black !important;
+       }
+    .offcanvas-header{
+        margin: 20px 30px 150px 30px;
+    }
+
+    .offcanvas-body{
+        margin: 0 25px;
+    }
+
+    .nav-link{
+        font-size: 35px;
+        font-family: 'Josefin Sans', sans-serif; 
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+
+    .text-box{
+        margin-top: 200px;
+        height: 300px;
+    }
+
+    .jump{
+        display: block;
+    }
+
+   
+    /*------------ PRESENTATION ------------*/
+
+    .presentation{
+        display: flex;
+        flex-wrap: wrap;
+        position:inherit;
+        padding: 150px 30px;
+    }
+
+    .box-img-presentation{
+        position: inherit;
+    }
+
+    .box-text-presentation{
+        position: inherit;
+        margin-top: 20px;
+    }
+
+    .box-text-presentation h2{
+        text-align: center;
+        font-size: 50px;
+    }
+
+    .box-text-presentation p{
+        text-align: justify;
+    }
+
+    /*------------ oUR CREATIONS ------------*/
+
+    .section-edit{
+        margin: 0;
+        padding: 120px 30px;
+    }
+
+    .title-section{
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .box-button-see{
+        display: none;
+    }
+
+    .image-our-section{
+        width: 100%;
+    }
+}

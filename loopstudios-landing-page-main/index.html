@@ -6,6 +6,7 @@
   
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/responsive.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Loopstudios landing page</title>
@@ -24,7 +25,7 @@
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="offcanvas offcanvas-start w-100 text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+        <div class="offcanvas offcanvas-edit offcanvas-start w-100 text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
           <div class="offcanvas-header">
             <h5 class="offcanvas-title fw-bold fs-2" id="offcanvasDarkNavbarLabel">loopstudios</h5>
             <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -53,11 +54,11 @@
       </div>
     </nav>
 
-   <div class="container">
+   <div class="container-fluid container-text-box">
     <div class="row">
-      <div class="col-lg-6 col-sm-12 text-box">
+      <div class="col-lg-6 col-md-12 text-box">
         <p class="text-light">
-          Immersive experiences that deliver
+          Immersive experiences that <span class="jump">deliver</span> 
         </p>
       </div>
     </div>
@@ -82,55 +83,55 @@
   </div>
 
   <div class="container section-edit">
-    <div class="row mb-5">
-      <div class="col-lg-9 p-0">
+    <div class="row mb-5 d-flex justify-content-between">
+      <div class="col-lg-9 col-md-12 p-0">
         <h3 class="text-uppercase display-6 title-section">Our creations</h3>
       </div>
-      <div class="col-lg-2 p-0 box-button-see">
+      <div class="col-lg-2 col-md-12 p-0 box-button-see">
         <button class="border border-2 border-dark bg-light w-100 h-75 text-uppercase fw-lighter button-see">See all</button>
       </div>
     </div>
-    <div class="row">
-      <div class="col-lg-3 col-sm-12  mb-3 p-0 capa">
-        <img src="images//desktop/image-deep-earth.jpg" alt="" class="image-our-section">
-        <p class="text-image text-light text-uppercase h2">Deep earth</p>
+    <div class="row mb-4 justify-content-between">
+      <div class="col col ps-0 capa capa-edit">
+        <img src="images//desktop/image-deep-earth.jpg" alt="" class="img-fluid">
+        <p class="text-image text-uppercase h2">Deep earth</p>
       </div>
-      <div class="col-lg-3 col-sm-12  mb-3 p-0 capa">
-        <img src="images/desktop/image-night-arcade.jpg" alt="" class="image-our-section">
-        <p class="text-image text-light text-uppercase h2"> Night arcade</p>
+      <div class="col capa">
+        <img src="images/desktop/image-night-arcade.jpg" alt="" class="img-fluid">
+        <p class="text-image text-uppercase h2"> Night arcade</p>
       </div>
-      <div class="col-lg-3 col-sm-12  mb-3 p-0 capa ">
-        <img src="images/desktop/image-soccer-team.jpg" alt="" class="image-our-section">
-        <p class="text-image text-light text-uppercase h2">Soccer team VR</p>
+      <div class="col capa ">
+        <img src="images/desktop/image-soccer-team.jpg" alt="" class="img-fluid">
+        <p class="text-image text-uppercase h2">Soccer team VR</p>
       </div>
-      <div class="col-lg-3 col-sm-12  mb-3 p-0 capa ">
-        <img src="images/desktop/image-grid.jpg" alt="" class="image-our-section">
-        <p class="text-image text-light text-uppercase h2">The grid</p>
+      <div class="col pe-0 capa ">
+        <img src="images/desktop/image-grid.jpg" alt="" class="img-fluid">
+        <p class="text-image text-uppercase h2">The grid</p>
       </div>
     </div>
     <div class="row">
-      <div class="col p-0 capa">
-        <img src="images//desktop/image-from-above.jpg" alt="" class="image-our-section">
-        <p class="text-image text-light text-uppercase h2">From up above VR</p>
+      <div class="col ps-0 capa capa-edit">
+        <img src="images//desktop/image-from-above.jpg" alt="" class="img-fluid">
+        <p class="text-image text-uppercase h2">From up above VR</p>
       </div>
-      <div class="col p-0 capa">
-        <img src="images/desktop/image-pocket-borealis.jpg" alt="" class="image-our-section">
-        <p class="text-image text-light text-uppercase h2"> Pocket borealis</p>
+      <div class="col capa">
+        <img src="images/desktop/image-pocket-borealis.jpg" alt="" class="img-fluid">
+        <p class="text-image text-uppercase h2"> Pocket borealis</p>
       </div>
-      <div class="col p-0 capa">
-        <img src="images/desktop/image-curiosity.jpg" alt="" class="image-our-section">
-        <p class="text-image text-light text-uppercase h2">The curiosity</p>
+      <div class="col capa">
+        <img src="images/desktop/image-curiosity.jpg" alt="" class="img-fluid">
+        <p class="text-image text-uppercase h2">The curiosity</p>
       </div>
-      <div class="col p-0 capa">
-        <img src="images/desktop/image-fisheye.jpg" alt="" class="image-our-section">
-        <p class="text-image text-light text-uppercase h2"> Make it fisheye</p>
+      <div class="col pe-0 capa">
+        <img src="images/desktop/image-fisheye.jpg" alt="" class="img-fluid">
+        <p class="text-image text-uppercase h2"> Make it fisheye</p>
       </div>
     </div>
   </div>
 
   <footer id="footer">
     <div class="container">
-      <div class="row mb-3">
+      <div class="ro">
         <div class="col-lg-10 p-0">
           <a href="#" class="navbar-brand text-light fw-bold fs-2">loopstudios</a>
         </div>
@@ -178,14 +179,6 @@
     </div>
     
   </footer>
-  <!-- 
-  About
-  Careers
-  Events
-  Products
-  Support
-
-  -->
 
   <script src="js/bootstrap.min.js"></script>
 </body>
