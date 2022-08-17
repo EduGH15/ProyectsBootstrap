@@ -61,9 +61,8 @@
 
     /*------------ oUR CREATIONS ------------*/
 
-    .section-edit{
-        margin: 0;
-        padding: 120px 30px;
+    .container-fluid-edit{
+        padding: 60px 30px;
     }
 
     .title-section{
@@ -75,7 +74,18 @@
         display: none;
     }
 
-    .image-our-section{
+    .container-all{
+        height: 250px;
+    }
+
+    .container-all div{
         width: 100%;
+        height: 100%;
+    }
+
+    .text-image{
+        font-size: 45px;
+        padding: 0 300px 0 30px;
+
     }
 }
